@@ -1,274 +1,184 @@
 <div align="center">
 
-# 👋 Hey, I'm Pratyush Vatsa
+# 👋 Pratyush Vatsa
 
-### 🚀 Full-Stack Developer | 💡 Problem Solver | 🎯 Building the Future
+### 🚀 Full-Stack Developer → Robotics Engineer (ROS2)
 
-[![GitHub followers](https://img.shields.io/github/followers/Pratyush150?label=Follow&style=social)](https://github.com/Pratyush150)
-[![Profile Views](https://komarev.com/ghpvc/?username=Pratyush150&color=blueviolet&style=flat-square)](https://github.com/Pratyush150)
+### 💡 Systems Thinking | 🤖 Autonomous Systems | ⚙️ Building Real-World Tech
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=200&section=header&text=Welcome%20to%20My%20World&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=fff)
+[![GitHub followers](https://img.shields.io/github/followers/Pratyush150?label=Follow\&style=social)](https://github.com/Pratyush150)
+[![Profile Views](https://komarev.com/ghpvc/?username=Pratyush150\&color=blueviolet\&style=flat-square)](https://github.com/Pratyush150)
+
+![Header](https://capsule-render.vercel.app/api?type=waving\&color=gradient\&customColorList=12,14,18,20,24\&height=200\&section=header\&text=Building%20Intelligent%20Systems\&fontSize=50\&fontAlignY=35\&animation=twinkling\&fontColor=fff)
 
 </div>
 
 ---
 
-## 🎨 About Me
+## 🎯 About Me
 
 ```typescript
 const pratyush = {
-    pronouns: "He" | "Him",
     location: "India 🇮🇳",
-    role: "Full-Stack Developer",
-    passion: "Building immersive web experiences & scalable applications",
+    currentRole: "Full-Stack Developer transitioning into Robotics",
 
-    currentFocus: [
-        "Next.js 14 & React Server Components",
-        "3D Web Graphics (Three.js, R3F)",
-        "Full-Stack PERN Applications",
-        "Cloud Architecture & DevOps"
+    focusAreas: [
+        "ROS2 (Robot Operating System)",
+        "Autonomous Navigation & Control",
+        "Robot Modeling (URDF/Xacro)",
+        "Simulation (RViz, Gazebo)",
+        "System Design & Scalable Architectures"
     ],
 
-    codePhilosophy: "Clean code, elegant solutions, continuous learning",
-
-    whenNotCoding: [
-        "Exploring new technologies 🔍",
-        "Contributing to open source 🌟",
-        "Learning system design 📚",
-        "Drinking coffee ☕"
+    techBackground: [
+        "Next.js, React, TypeScript",
+        "Node.js, Express, PostgreSQL, MongoDB",
+        "Three.js & Interactive 3D Systems"
     ],
 
-    funFact: "I debug in production... just kidding! 😄"
+    currentGoal: "Building intelligent robotic systems that interact with the real world",
+
+    mindset: "Understand systems deeply. Build with intent. Optimize continuously."
 };
 ```
 
 <div align="center">
 
-**💬 "Turning complex problems into elegant code"**
+**💬 "From writing code to building systems that move, sense, and decide."**
 
 </div>
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Technical Focus
 
 <div align="center">
 
-### 🎯 Languages & Core
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### 🤖 Robotics & Systems
 
-### ⚛️ Frontend Frameworks
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge\&logo=ros\&logoColor=white)
+![URDF](https://img.shields.io/badge/URDF-Robot_Modeling-blue?style=for-the-badge)
+![Gazebo](https://img.shields.io/badge/Gazebo-Simulation-orange?style=for-the-badge)
+![RViz](https://img.shields.io/badge/RViz-Visualization-green?style=for-the-badge)
 
-### 🔧 Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+### 💻 Software Engineering
 
-### 🚀 Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge\&logo=typescript\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
+
+### ⚙️ Tools
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge\&logo=linux\&logoColor=white)
 
 </div>
 
 ---
 
-## 🔥 Featured Projects
+## 🔥 Featured Work
 
-<div align="center">
+### 🤖 Mobile Robot (ROS2 + URDF)
 
-<table>
-<tr>
-<td width="50%">
+* Designed a differential drive robot using URDF
+* Implemented:
 
-### 🌌 KAIRO STUDIO - Automation Universe
-**Full-Stack 3D Immersive Platform**
+  * Base chassis
+  * Wheel joints (continuous)
+  * LiDAR sensor mount
+* Working with:
 
-A next-generation web application combining cutting-edge 3D graphics with powerful business automation tools. Features interactive orbital navigation, complete authentication, and database-backed services.
+  * `cmd_vel` velocity control
+  * ROS2 nodes (publisher/subscriber)
+  * Timer-based execution
 
-**Tech Stack:**
-- Next.js 14 + TypeScript
-- React Three Fiber + Three.js
-- Prisma ORM + PostgreSQL
-- JWT Authentication + Bcrypt
-- Tailwind CSS
+👉 Focus: Understanding robot structure + motion control pipeline
 
-**Highlights:**
-- ✨ Interactive 3D orbital navigation
-- 🔐 Complete auth system (JWT)
-- 💾 Database-backed (5 models)
-- 📱 Performance optimized (60 FPS)
-- 🎨 Glass-morphism UI design
-- 📊 Protected dashboard
-- 🚀 Production-ready
+---
 
-**Links:**
-- [Live Demo](http://152.67.2.20:3000)
-- [Repository](https://github.com/Pratyush150/Kairo_studio_website)
-- [Documentation](https://github.com/Pratyush150/Kairo_studio_website/tree/main/docs)
+### 🌌 KAIRO STUDIO (Full-Stack System)
 
-**Status:** ✅ Production Ready | 14/14 Routes | 86% Complete
+* Built a 3D immersive platform with real-time interaction
+* Integrated authentication, database, and dashboard systems
+* Optimized rendering performance and UX
 
-</td>
-<td width="50%">
-
-### 📺 VidTube Platform
-**YouTube-Inspired Video Platform**
-
-A comprehensive video streaming platform with user authentication, video upload, and social features.
-
-**Tech Stack:**
-- JavaScript + React
-- Node.js + Express
-- MongoDB
-
-**Features:**
-- Video upload & streaming
-- User authentication
-- Comments & likes
-- Responsive design
-
-[View Project →](https://github.com/Pratyush150/CompleteVidTubeProjectInspiredFromYoutube)
+👉 Focus: System design + scalable architecture
 
 ---
 
 ### 🎓 CampusConnect
-**Campus Social Networking**
 
-A social networking platform designed for campus communities with real-time features.
+* Social platform with real-time features
+* Designed modular frontend and backend systems
 
-**Tech Stack:**
-- React + Node.js
-- WebSocket (real-time)
-- MongoDB
-
-**Features:**
-- User profiles
-- Real-time messaging
-- Event management
-- Campus news feed
-
-[View Project →](https://github.com/Pratyush150/CampusConnect)
-
-</td>
-</tr>
-</table>
-
-</div>
+👉 Focus: distributed systems thinking
 
 ---
 
-## 💼 What I'm Working On
-
-<div align="center">
+## ⚙️ Current Work
 
 ```mermaid
 graph LR
-    A[🔭 Current Focus] --> B[KAIRO STUDIO]
-    A --> C[Phase G Optimization]
-    A --> D[System Design]
+    A[Current Direction] --> B[ROS2 Deep Dive]
+    A --> C[Robot Control Systems]
+    A --> D[Simulation + Modeling]
 
-    B --> B1[Analytics Integration]
-    B --> B2[A/B Testing]
-    B --> B3[Accessibility Audit]
+    B --> B1[Topics / Services / Actions]
+    B --> B2[Publisher-Subscriber Architecture]
 
-    C --> C1[Lighthouse Optimization]
-    C --> C2[Performance Monitoring]
+    C --> C1[cmd_vel Control]
+    C --> C2[Motion Behavior]
 
-    D --> D1[Microservices Architecture]
-    D --> D2[Cloud Deployment AWS]
-
-    style A fill:#667eea,stroke:#764ba2,stroke-width:3px,color:#fff
-    style B fill:#f093fb,stroke:#f5576c,stroke-width:2px,color:#000
-    style C fill:#4facfe,stroke:#00f2fe,stroke-width:2px,color:#000
-    style D fill:#43e97b,stroke:#38f9d7,stroke-width:2px,color:#000
+    D --> D1[URDF/Xacro]
+    D --> D2[RViz + Gazebo]
 ```
+
+---
+
+## 🚧 What I'm Building Now
+
+* ROS2 nodes (publisher/subscriber + timers)
+* Robot motion logic (wall detection, circular movement)
+* URDF-based robot models
+* Simulation workflows (RViz)
+
+---
+
+## 🎯 Next Targets
+
+* ROS2 Navigation Stack (Nav2)
+* SLAM (Simultaneous Localization and Mapping)
+* Sensor integration (LiDAR, camera)
+* Gazebo physics-based simulation
+* ROS2 Control (hardware interfaces)
+
+---
+
+## 📫 Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/pratyush-vatsa)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Pratyush150)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:pratyush150@users.noreply.github.com)
 
 </div>
 
-### 🎯 Current Priorities
+---
 
-<table>
-<tr>
-<td width="33%">
+## 🧭 Philosophy
 
-#### 🚀 Building
-- **KAIRO STUDIO Phase G**
-  - Analytics integration
-  - A/B testing framework
-  - Performance monitoring
-  - Accessibility audit (WCAG 2.1 AA)
-
-- **Next Projects**
-  - Microservices architecture
-  - Real-time collaboration tools
-  - AI-powered features
-
-</td>
-<td width="33%">
-
-#### 🌱 Learning
-- **Cloud & DevOps**
-  - AWS (EC2, S3, Lambda)
-  - Docker & Kubernetes
-  - CI/CD pipelines
-
-- **Advanced Topics**
-  - System Design patterns
-  - Distributed systems
-  - GraphQL & tRPC
-  - WebAssembly
-
-</td>
-<td width="33%">
-
-#### 🤝 Collaborating
-- **Open to:**
-  - Innovative web projects
-  - 3D web experiences
-  - Full-stack applications
-  - Open source contributions
-
-- **Interested in:**
-  - Next.js projects
-  - React Three Fiber
-  - PERN stack apps
-  - Design systems
-
-</td>
-</tr>
-</table>
+```text
+Build systems, not just features.
+Understand flow, not just code.
+Think in architecture, not syntax.
+```
 
 ---
 
 <div align="center">
 
-## 📫 Let's Connect!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pratyush-vatsa)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/pratyush150)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pratyush150@users.noreply.github.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](http://152.67.2.20:3000)
-
----
-
-### 💭 "First, solve the problem. Then, write the code." - John Johnson
-
-**Thanks for visiting! Feel free to explore my repositories and don't forget to ⭐ projects you find interesting!**
-
-<img src="https://komarev.com/ghpvc/?username=Pratyush150&label=Profile%20Views&color=blueviolet&style=flat" alt="Profile views" />
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=120&section=footer)
+⭐ If you're into robotics, systems, or building real-world tech — let's connect.
 
 </div>
