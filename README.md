@@ -18,14 +18,19 @@ are where projects usually break.
 Most of our work starts the same way: a machine or a process is doing something wrong
 and nobody can say why. So the work starts with diagnosis, not code.
 
+We write software only — including the software that runs on hardware: firmware for your
+flight controller, drivers, embedded C++, board bring-up in software terms, ROS 2 nodes,
+MAVLink integration, perception. We do not build, wire, assemble or repair hardware, we
+do not do PCB or mechanical design, and nothing has to be shipped to us.
+
 ---
 
 ## Robotics & control
 
 ROS 2, PX4 and ArduPilot drone autonomy, MAVLink integration, LiDAR SLAM, control
-systems and state estimation, real-time perception on Jetson and Raspberry Pi. We work
-on real hardware, not just in simulation, so we have already hit the failure modes you
-are hitting.
+systems and state estimation, real-time perception on Jetson and Raspberry Pi. Our code
+runs on real vehicles, not just in simulation, so it has already met the failure modes
+you are hitting.
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -99,7 +104,7 @@ code, so performance and reliability are not afterthoughts.
 
 **Languages** — Python · C++ · TypeScript · NumPy · Eigen · CMake · Linux · Docker
 
-**Hardware** — NVIDIA Jetson · Raspberry Pi · Hailo-8 · STM32 · Pixhawk · Arduino · LiDAR · IMU integration · encoders
+**Boards we write for** — NVIDIA Jetson · Raspberry Pi · Hailo-8 · STM32 · Pixhawk · Arduino · LiDAR · IMU integration · encoders
 
 ---
 
@@ -108,7 +113,11 @@ code, so performance and reliability are not afterthoughts.
 - **Robotics & control** — ROS 2 and PX4/ArduPilot integration, MAVLink bridges, LiDAR SLAM, control and state estimation, edge perception on Jetson and Raspberry Pi
 - **Simulation & testing** — Gazebo, Isaac Sim and AirSim environments, SITL setups, and scenario-driven regression suites that fail a build instead of surprising a pilot
 - **Automation & AI** — Modbus/OPC-UA acquisition and dashboards, workflow engines with real retry and resume semantics, and retrieval-grounded assistants with an eval harness
-- **Product** — React and TypeScript dashboards and React Native apps for hardware, with a typed domain model and a simulated backend so the UI is testable without the machine
+- **Product** — React and TypeScript dashboards and React Native apps for machines in the field, with a typed domain model and a simulated backend so the UI is testable without the machine
+
+Not available for: building, wiring, assembling or repairing hardware, PCB design,
+component selection or mechanical work. We write the software that runs on your boards,
+not the boards.
 
 Every engagement starts with a paid diagnosis and a written root-cause report you can act
 on whether or not we do the implementation.
@@ -117,10 +126,11 @@ on whether or not we do the implementation.
 
 ## Contact
 
-- Portfolio: **<https://pratyush150.github.io>**
-- Email: **<pratyushvatsa2018@gmail.com>**
-- LinkedIn: **<https://www.linkedin.com/in/pratyush-vatsa-a03292372>**
-- Fiverr: **<https://www.fiverr.com/s/YLvqY7z>**
+- Email: **REPLACE_ME**
+- Portfolio: **https://pratyush150.github.io**
+- LinkedIn: **REPLACE_ME**
+- Fiverr: **REPLACE_ME**
 
 Send the system, the versions, and the evidence — a log, a bag file, a register map, a
-sample of the corpus. That gets you a useful answer.
+sample of the corpus, a photo of how it is wired. That gets you a useful answer, and it
+is all we need: your hardware stays where it is.
