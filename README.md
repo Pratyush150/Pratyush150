@@ -82,6 +82,48 @@ code, so performance and reliability are not afterthoughts.
 
 ---
 
+## Measured against ground truth
+
+Four repositories that exist to be checked rather than admired. Each one implements the
+method from the protocol, then puts its own output next to an independent reference or a
+public dataset's official metrics, and reports the gap.
+
+| Project | The number, and what it is measured against | Stack |
+|---|---|---|
+| [**stereo-visual-slam**](https://github.com/Pratyush150/stereo-visual-slam) | Stereo VO and SLAM written from scratch — no ORB-SLAM, no g2o, no GTSAM, no Ceres. On KITTI raw drive `2011_09_30_drive_0027`, 1,106 frames over 694.7 m of OXTS ground truth: **1.256% translation error, 0.01092 deg/m rotation, ATE RMSE 1.276 m**, and 21 loop closures accepted out of 21 correct. Scored with the official KITTI metrics on a public dataset, so the figures are reproducible rather than asserted. | Python, NumPy, OpenCV, KITTI |
+| [**pose-graph-slam**](https://github.com/Pratyush150/pose-graph-slam) | An SE(3) pose-graph optimiser with hand-derived Jacobians. On `sphere2500` — 2,500 poses, 4,949 constraints — **ATE goes from 27.93 m to 0.180 m in 10 iterations**, a 97.5% improvement. Cross-checked against a run of GTSAM 4.2 on the identical files; GTSAM appears exactly once, in an optional verification script. | Python, NumPy, SciPy (sparse solve only) |
+| [**object-detection-benchmark**](https://github.com/Pratyush150/object-detection-benchmark) | COCO mAP implemented from the protocol — IoU sweep 0.50:0.05:0.95, crowd handling, area bands — and it **matches `pycocotools` bit for bit across 367,010 detections on 4,872 real val2017 images**, with `pycocotools` nowhere in the library path. Then the accuracy-versus-latency table that a single mAP number hides, across seven YOLOv8n variants on one CPU. | Python, NumPy, ONNX Runtime, COCO |
+| [**swarm-path-planning**](https://github.com/Pratyush150/swarm-path-planning) | Multi-agent path finding on the standard MAPF benchmark maps: CBS, ECBS, and prioritised planning, with an independent validator that re-checks every plan and reports conflicts. Solutions are reported against a proven lower bound rather than against each other — 30 agents on `random-32-32-20` plan to sum-of-costs 637, **1.024x the lower bound**. | Python, NumPy |
+
+---
+
+## Capstones — one project, every decision
+
+Longer builds whose point is the reasoning, not the result. Each carries a
+`HOW_TO_THINK.md`, a decision journal recording at least one path that did not work, a
+`DEBUG_PROTOCOL.md`, and an `INTERVIEW.md` answered from that repository's own code.
+Every headline number is produced by code in the repo.
+
+| Project | What it works through | Tests |
+|---|---|---|
+| [**object-detector-end-to-end**](https://github.com/Pratyush150/object-detector-end-to-end) | Data, training, evaluation, error analysis and deployment. A controlled leakage experiment worth **0.189 mAP50** — leaky test set 0.876, honest test set 0.687 — and a quantisation study where INT8 came out **slower**, because postprocess is 72% of the frame and inference only 17.5%. The naive version of the leakage experiment gave the wrong answer and is kept in the decision record. | 123 |
+| [**camera-imu-rig-calibration**](https://github.com/Pratyush150/camera-imu-rig-calibration) | Intrinsics against known truth, the fronto-parallel confound, PnP degeneracy, and time-offset recovery from images and gyro alone (+30.000 ms injected, +28.258 ms recovered). Three results came out opposite to expectation and are documented as such — quaternion drift is the integrator, not float64. | 128 |
+| [**monocular-visual-odometry**](https://github.com/Pratyush150/monocular-visual-odometry) | Tracking, scale, loop closure, filtering and a C++ port. Leads with the honest number: unit-scale monocular VO gives 30.34% KITTI translation error, and scale propagated from structure is *worse* than not scaling at all. Loop closure by appearance alone is **2.6% precise**; geometric verification takes it to 100%. | 116 |
+
+---
+
+## Learning in public
+
+One chapter each, written to be read in order. Comments explain why a line exists, not
+what it does.
+
+[**cv01-pixels-to-edges**](https://github.com/Pratyush150/cv01-pixels-to-edges) ·
+[**cv02-features-to-panorama**](https://github.com/Pratyush150/cv02-features-to-panorama) ·
+[**cv03-backprop-to-cnn**](https://github.com/Pratyush150/cv03-backprop-to-cnn) ·
+[**cv04-calibration-to-depth**](https://github.com/Pratyush150/cv04-calibration-to-depth)
+
+---
+
 ## Tech stack
 
 **Flight stacks** — PX4 · ArduPilot · Betaflight · MAVLink · MAVSDK · pymavlink · MAVROS · ULog · dataflash logs · QGroundControl · Mission Planner
