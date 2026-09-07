@@ -168,10 +168,10 @@ on whether or not we do the implementation.
 
 ## Contact
 
-- Email: **REPLACE_ME**
+- Email: **pratyushvatsa2018@gmail.com**
 - Portfolio: **https://pratyush150.github.io**
-- LinkedIn: **REPLACE_ME**
-- Fiverr: **REPLACE_ME**
+- LinkedIn: **www.linkedin.com/in/pratyush-vatsa-a03292372**
+- Fiverr: **(https://www.fiverr.com/users/pratyush_vatsa1)**
 
 Send the system, the versions, and the evidence — a log, a bag file, a register map, a
 sample of the corpus, a photo of how it is wired. That gets you a useful answer, and it
