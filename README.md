@@ -34,6 +34,8 @@ you are hitting.
 
 | Project | What it does | Stack |
 |---|---|---|
+| [**precision-landing**](https://github.com/Pratyush150/precision-landing) | Two descent strategies for landing on a visual marker — align-then-descend against descend-while-correcting — run against identical disturbances and seeds and reported as distributions with confidence intervals. The measured answer is that neither wins: the concurrent lander succeeds more often in wind, the sequential one fails *airborne* where the other fails *on the ground in the wrong place*. A sensitivity ranking over 18 parameters puts camera mount height level with pad geometry, and detection latency at zero. 320 tests. | Python, NumPy, Monte Carlo |
+| [**autonomous-docking**](https://github.com/Pratyush150/autonomous-docking) | Docking a differential-drive robot onto a charging station, as a guarded state machine of 13 states and 35 transitions. The marker stops being observable before contact, so the last 300 mm is dead reckoning — the repository measures where that stops working, and the success boundary follows constant `drift x blind²`. Contact is not docking: only charge voltage counts. 142 tests. | Python, NumPy, state machines |
 | [**px4-mavlink-companion**](https://github.com/Pratyush150/px4-mavlink-companion) | MAVLink bridge between a flight controller and a companion computer. Serial discovery by stable `by-id` name, baud probing confirmed by a real heartbeat, and a watchdog that tells a dead link, a dead stream, frozen contents, a backwards clock and an autopilot reboot apart. | Python, pymavlink, PX4, ArduPilot |
 | [**drone-control-toolkit**](https://github.com/Pratyush150/drone-control-toolkit) | PID with anti-windup and filtered derivative, cascaded loops, discrete LQR without scipy, complementary / Madgwick / Kalman / EKF attitude estimation, motor mixing that gives up thrust to keep attitude, and a sim harness that injects latency, motor lag, quantisation and gyro bias. | Python, NumPy |
 | [**jetson-realtime-detection**](https://github.com/Pratyush150/jetson-realtime-detection) | Edge detection and tracking: one-deep latest-frame buffer, adaptive frame skipping solved from measured timings, SORT tracking with Hungarian assignment written from scratch, and per-stage p50/p90/p99 profiling. | TensorRT, ONNX Runtime, Hailo, OpenCV, Python |
@@ -168,10 +170,10 @@ on whether or not we do the implementation.
 
 ## Contact
 
-- Email: **pratyushvatsa2018@gmail.com**
+- Email: **REPLACE_ME**
 - Portfolio: **https://pratyush150.github.io**
-- LinkedIn: **www.linkedin.com/in/pratyush-vatsa-a03292372**
-- Fiverr: **(https://www.fiverr.com/users/pratyush_vatsa1)**
+- LinkedIn: **REPLACE_ME**
+- Fiverr: **REPLACE_ME**
 
 Send the system, the versions, and the evidence — a log, a bag file, a register map, a
 sample of the corpus, a photo of how it is wired. That gets you a useful answer, and it
